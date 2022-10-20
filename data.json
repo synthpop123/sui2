@@ -1,51 +1,68 @@
 {
   "apps" : [
     {
-      "name": "Cloud",
+      "name": "Server",
       "items": [
-        {"name":"CloudCMD","url":"http://files.example.com","icon":"folder-multiple-outline"},
-        {"name":"Cockpit","url":"http://cp.example.com","icon":"airplane"},
-        {"name":"Feedbin","url":"http://rss.example.com","icon":"rss"},
-        {"name":"Filestash","url":"http://cloud.example.com","icon":"package"},
-        {"name":"Minio","url":"http://minio.example.com","icon":"server"},
-        {"name":"Mylar","url":"http://comics.example.com","icon":"book-open-variant"},
-        {"name":"Nextcloud","url":"http://cloud.example.com","icon":"weather-cloudy"},
-        {"name":"Ombi","url":"http://request.example.com","icon":"file-find-outline"},
-        {"name":"Pi-hole","url":"http://pihole.example.com","icon":"do-not-disturb"},
-        {"name":"Portainer","url":"http://port1.example.com","icon":"docker"},
-        {"name":"Stackedit","url":"http://md.example.com","icon":"markdown"},
-        {"name":"Ubooquity","url":"http://opds.example.com","icon":"library-shelves"}
+        {"name":"Plex","url":"https://app.plex.tv/desktop/#!/","icon":"plex"},
+        {"name":"Jellyfin","url":"https://jellyfin.lkw123.box.ca/web/index.html#!/home.html","icon":"vector-triangle"},
+        {"name":"Radarr","url":"https://radarr.lkw123.box.ca/","icon":"filmstrip"},
+        {"name":"Sonarr","url":"https://sonarr.lkw123.box.ca/","icon":"television-box"},
+        {"name":"Tautulli","url":"https://tautulli.lkw123.box.ca/","icon":"virus-outline"},
+        {"name":"Prowlarr","url":"https://prowlarr.lkw123.box.ca/","icon":"folder-search"},
+        {"name":"NZBHydra2","url":"https://nzbhydra.lkw123.box.ca/","icon":"snake"},
+        {"name":"Overseerr","url":"https://overseerr.lkw123.box.ca/","icon":"file-find-outline"},
+        {"name":"ruTorrent","url":"https://elara.whatbox.ca/webui/","icon":"progress-download"},
+        {"name":"SABnzbd","url":"https://sabnzbd.lkw123.box.ca/","icon":"download-outline"},
+        {"name":"Cloudreve","url":"https://cloudreve.lkw123.box.ca/home?path=%2F","icon":"weather-cloudy"},
+        {"name":"The Lounge","url":"https://lounge.lkw123.box.ca/","icon":"human-greeting-proximity"}
       ]
     },
     {
-      "name": "TV",
+      "name": "Tools",
       "items": [
-        {"name":"Plex","url":"http://play.example.com","icon":"plex"},
-        {"name":"Radarr","url":"http://movies.example.com","icon":"filmstrip"},
-        {"name":"Sonarr","url":"http://tv.example.com","icon":"television-box"},
+        {"name":"Whatbox","url":"https://whatbox.ca/manage","icon":"rabbit"},
+        {"name":"Music","url":"https://music.lkwplus.com/","icon":"music"},
+        {"name":"Movie","url":"https://movie.lkwplus.com/","icon":"filmstrip"},
         {"name":"Bazarr","url":"http://subs.example.com","icon":"message-video"},
-        {"name":"Jackett","url":"http://jackett.example.com","icon":"tshirt-crew-outline"},
-        {"name":"Lidarr","url":"http://music.example.com","icon":"music"},
-        {"name":"Transmission","url":"http://dl.example.com","icon":"progress-download"},
-        {"name":"Youtube-DL","url":"http://yt.example.com","icon":"youtube"}
+        {"name":"DeepL","url":"https://www.deepl.com/home","icon":"google-translate"},
+        {"name":"GitHub","url":"https://github.com/synthpop123","icon":"github"},
+        {"name":"PTPimg","url":"https://ptpimg.me/","icon":"image-move"},
+        {"name":"RSS Reader","url":"https://www.qireader.com/categories/!all","icon":"rss"}
       ]
     }
   ],
   "bookmarks" : [
     {
+      "category": "Myself",
+      "links": [
+        {
+          "name": "Homepage",
+          "url": "https://www.lkwplus.com/"
+        },
+        {
+          "name": "Blog",
+          "url": "https://blog.lkwplus.com/"
+        },
+        {
+          "name": "Notion",
+          "url": "https://notion.lkwplus.com/"
+        }
+      ]
+    },
+    {
       "category": "Communicate",
       "links": [
         {
-          "name": "Discord",
-          "url": "https://discord.com"
+          "name": "Reddit",
+          "url": "https://www.reddit.com/"
         },
         {
           "name": "Gmail",
-          "url": "http://gmail.com"
+          "url": "https://mail.google.com/mail/ca/u/0/#inbox"
         },
         {
-          "name": "Slack",
-          "url": "https://slack.com/signin"
+          "name": "Protonmail",
+          "url": "https://mail.proton.me/u/0/inbox/"
         }
       ]
     },
@@ -53,50 +70,33 @@
       "category": "Cloud",
       "links": [
         {
-          "name": "Box",
-          "url": "https://box.com"
+          "name": "Jianguoyun",
+          "url": "https://www.jianguoyun.com/#/"
         },
         {
           "name": "Dropbox",
           "url": "https://dropbox.com"
         },
         {
-          "name": "Drive",
+          "name": "GDrive",
           "url": "https://drive.google.com"
         }
       ]
     },
     {
-      "category": "Design",
+      "category": "Trackers",
       "links": [
         {
-          "name": "Awwwards",
-          "url": "https://awwwards.com"
+          "name": "HDBits",
+          "url": "https://hdbits.org/browse.php"
         },
         {
-          "name": "Dribbble",
-          "url": "https://dribbble.com"
+          "name": "PassThePopcorn",
+          "url": "https://passthepopcorn.me/index.php"
         },
         {
-          "name": "Muz.li",
-          "url": "https://medium.muz.li/"
-        }
-      ]
-    },
-    {
-      "category": "Dev",
-      "links": [
-        {
-          "name": "Codepen",
-          "url": "https://codepen.io/"
-        },
-        {
-          "name": "Devdocs",
-          "url": "https://devdocs.io"
-        },
-        {
-          "name": "Devhints",
-          "url": "https://devhints.io"
+          "name": "BeyondHD",
+          "url": "https://beyond-hd.me/torrents"
         }
       ]
     },
@@ -125,12 +125,12 @@
           "url": "http://browse.spotify.com"
         },
         {
-          "name": "Trakt",
-          "url": "http://trakt.tv"
+          "name": "Letterboxd",
+          "url": "https://letterboxd.com/lkw123/"
         },
         {
-          "name": "YouTube",
-          "url": "https://youtube.com/feed/subscriptions"
+          "name": "Douban",
+          "url": "https://movie.douban.com/"
         }
       ]
     },
@@ -146,24 +146,24 @@
           "url": "http://medium.com"
         },
         {
-          "name": "Reddit",
-          "url": "http://reddit.com"
+          "name": "Z-Library",
+          "url": "https://z-lib.org/"
         }
       ]
     },
     {
-      "category": "Tech",
+      "category": "News",
       "links": [
         {
-          "name": "TheNextWeb",
-          "url": "https://thenextweb.com/"
+          "name": "NYTimes",
+          "url": "hhttps://cn.nytimes.com/"
         },
         {
-          "name": "The Verge",
-          "url": "https://theverge.com/"
+          "name": "Reuters",
+          "url": "https://www.reuters.com/"
         },
         {
-          "name": "MIT Technology Review",
+          "name": "MIT Technology",
           "url": "https://www.technologyreview.com/"
         }
       ]
