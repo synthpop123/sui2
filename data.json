@@ -23,7 +23,7 @@
         {"name":"Whatbox","url":"https://whatbox.ca/manage","icon":"rabbit"},
         {"name":"Music","url":"https://music.lkwplus.com/","icon":"music"},
         {"name":"Movie","url":"https://movie.lkwplus.com/","icon":"filmstrip"},
-        {"name":"Bazarr","url":"http://subs.example.com","icon":"message-video"},
+        {"name":"Autobrr","url":"https://autobrr.lkw123.box.ca/","icon":"rabbit-variant"},
         {"name":"DeepL","url":"https://www.deepl.com/home","icon":"google-translate"},
         {"name":"GitHub","url":"https://github.com/synthpop123","icon":"github"},
         {"name":"PTPimg","url":"https://ptpimg.me/","icon":"image-move"},
